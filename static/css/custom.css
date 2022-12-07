@@ -4,13 +4,18 @@
 .masthead .menu a {
     border-bottom: unset !important;
 }
+.masthead .menu a:hover {
+    color: #0f72c7;
+}
 .main p img {
         margin: 0 auto;display: block;
         border-radius: 5px;
         }
 .main p a {
-    border-bottom: 1px dashed !important;
-    color: #155ddc;
+    color: #e0250f;
+}
+.main p a:hover {
+    color: #0f72c7;
 }
 .main .nav-prev a {
     border-bottom: unset;
@@ -18,18 +23,25 @@
 .main .nav-next a {
     border-bottom: unset;
 }
-li a {
-        border-bottom: 1px dashed !important;
+li {
+    list-style: square;
+}
+a:hover {
+    color: #0f72c7;
+}
+.archives .main li a {
+    color: #e0250f;
 }
 code {
     word-wrap: break-word;
 }
 blockquote {
     margin: 1.5em 0 !important;
-    padding: 0 1.5em !important;
-    border-left: 3px solid #e57016 !important;
+    padding: 0.5em 1.5em !important;
+    border-left: 3px solid #0f72c7 !important;
     font-size: 14px;
-    color: #e57016;
+    color: #0f72c7;
+    background: #f6f6f6;
 }
 @media screen and (max-width: 480px){
 body {
