@@ -6,6 +6,15 @@
 {{ (index (split .Content "<!--# ON_HOLD -->") 0) | safeHTML }}
 {{ else }}
 {{ .Content }}
+
+{{ if .Section }}
+<hr>
+<nav class="post-nav">
+  <span class="nav-prev">{{ with .PrevInSection }}上一篇：<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
+  <span class="nav-next">{{ with .NextInSection }}下一篇：<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
+</nav>
+{{ end }}
+
 {{ end }}
 
 {{ partial "footer.html" . }}
