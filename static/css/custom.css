@@ -1,0 +1,62 @@
+.masthead h1 {
+        font-size: 40px !important;
+        }
+.masthead .menu a {
+    border-bottom: unset !important;
+}
+.main p img {
+        margin: 0 auto;display: block;
+        border-radius: 5px;
+        }
+.main p a {
+    border-bottom: 1px dashed !important;
+    color: #155ddc;
+}
+.main .nav-prev a {
+    border-bottom: unset;
+}
+.main .nav-next a {
+    border-bottom: unset;
+}
+li a {
+        border-bottom: 1px dashed !important;
+}
+code {
+    word-wrap: break-word;
+}
+blockquote {
+    margin: 1.5em 0 !important;
+    padding: 0 1.5em !important;
+    border-left: 3px solid #e57016 !important;
+    font-size: 14px;
+    color: #e57016;
+}
+@media screen and (max-width: 480px){
+body {
+    margin: 0 20px;
+}}
+@media screen and (max-width: 960px){
+body {
+    margin: 0 20px;
+}
+.post-nav {
+    justify-content: unset;
+    flex-direction: column;
+}
+.nav-prev {
+    margin-right: unset;
+    margin-bottom: 10px;
+}
+.nav-next {
+    margin-left: unset;
+    text-align: unset;
+}
+}
+@media screen and (min-width: 960px){
+.nav-prev {
+    width: 50%;
+}
+.nav-next {
+    width: 50%;
+}
+}
