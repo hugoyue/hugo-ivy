@@ -32,10 +32,10 @@ menu:
 params:
   description: "A Hugo theme ported from the static site generator Ivy."
   footer: "&copy; [Yihui Xie](https://yihui.org) 2017 | [Github](https://github.com/yihui)"
-  highlightjsCDN: "//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M"
+  highlightjsCDN: "//cdn.staticfile.org"
   highlightjsLang: ["bash", "r", "yaml", "tex", "php"]
-  highlightjsTheme: "github"
-  highlightjsVersion: "9.12.0"
+  highlightjsTheme: "monokai"
+  highlightjsVersion: "11.7.0"
 
 markup:
   goldmark:
